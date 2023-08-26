@@ -8,11 +8,11 @@
 }
 /* HEADING AND PARA */
 .para-text {
-    background: linear-gradient(90.23deg, #234EB0 2.75%, #B656E2 104.73%);
+    background: linear-gradient(90.23deg, #234EB0 2.75%, #bb3bf6 104.73%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 35px;
     line-height: 52px;
     text-align: center;
@@ -31,7 +31,7 @@
     line-height: 90px;
     text-align: center;
     letter-spacing: 0.02em;
-    background: linear-gradient(90deg, #234EB0 3.66%, #9010B0 100%);
+    background: linear-gradient(90deg, #234EB0 3.66%, #cc05fd 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
