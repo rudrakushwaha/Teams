@@ -358,7 +358,7 @@ top: -1px;
     justify-content: center;
   }
 
-  @media (max-width: 464px) {
+  @media (max-width: 466px) {
     .nav{
         font-size: 1rem;
         /* flex-direction: column; */
@@ -370,23 +370,24 @@ top: -1px;
     }
     .nav-head{
         font-size:3rem;
-        margin-top: 3rem;
+        margin-top: 5rem;
         margin-right: 20px;
     }
 
   }
-  @media (max-width: 392px){
+  @media (max-width: 393px){
     .nav-text{
         margin-top: 6rem;
         width:100%
     }
     .nav-head{
         font-size:3rem;
-        margin-top: 5rem;
+        /* margin-top: rem; */
         width: 500px;
         align-self: center;
-        margin-top: 2rem;
+        margin-top: 400px;
         margin-right: 20px;
+        height: 6rem;
 
     }
     .ms-icon{
@@ -399,5 +400,17 @@ top: -1px;
     }
     .nav{
         flex-direction: row;
+    }
+  }
+  @media (max-width: 623px){
+    .nav-text{
+            margin-left: 25px;
+            margin-top: 4rem;
+    }
+    .nav-head{
+        margin-left: 25px;
+        width: 300px;
+        height: 500px;
+
     }
   }
